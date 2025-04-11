@@ -34,7 +34,7 @@ def main():
     # ---------------------------------------------------------
     start_time = perf_counter()
 
-    image_edges = vc_filter.apply(image_in, 3.5)
+    image_edges = vc_filter.apply(image_in, 2.7)
 
     time_spent = perf_counter() - start_time
     # ---------------------------------------------------------
